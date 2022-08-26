@@ -1,14 +1,18 @@
 package com.lti.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="admin_tbl")
 public class Admin {
 
+	@Id 
 	private String admin_username;
 	private String admin_password;
+	
+	
 	public String getAdmin_username() {
 		return admin_username;
 	}
