@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "MOTOR_INSURANCE")
-public class Motor_Insurance {
+public class MotorInsurance {
 
 	@Id
 	@Column(name = "POLICY_NO")

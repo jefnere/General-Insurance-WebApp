@@ -49,7 +49,7 @@ public class User {
 
 	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "FK_USER_ID")
-	private Motor_Insurance motor;
+	private MotorInsurance motor;
 
 	public int getUser_id() {
 		return user_id;
@@ -131,11 +131,11 @@ public class User {
 		this.user_zipCode = user_zipCode;
 	}
 
-	public Motor_Insurance getMotor() {
+	public MotorInsurance getMotor() {
 		return motor;
 	}
 
-	public void setMotor(Motor_Insurance motor) {
+	public void setMotor(MotorInsurance motor) {
 		this.motor = motor;
 	}
 
